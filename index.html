@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Chaos Window</title>
+</head>
+<body>
+<div id="chaos-container">
+    <video class="chaos-video" loop muted playsinline autoplay>
+        <source src="/src/assets/media/static.mp4" type="video/mp4">
+    </video>
+
+    <div id="peace-container">
+        <div class="peace-window">
+            <img class="peace-image" src="/src/assets/media/peaceful.jpg" alt="Peaceful image">
+        </div>
+    </div>
+</div>
+<div class="start-overlay">Click anywhere</div>
+<script type="module" src="/src/assets/main.ts"></script>
+</body>
+</html>
